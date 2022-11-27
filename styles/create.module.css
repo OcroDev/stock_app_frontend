@@ -1,0 +1,32 @@
+.formControl {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  margin: 0 auto;
+}
+.formControl input {
+  margin-bottom: 0.5rem;
+}
+
+.formControl h1 {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 0.5rem;
+}
+
+.formControl button {
+  height: 50px;
+  width: 60%;
+  margin: 0 auto;
+  background-color: #ff6347;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "JetBrains Mono";
+  border-radius: 1rem;
+  transition: opacity 0.3s ease;
+}
+
+.formControl button:hover {
+  opacity: 90%;
+  cursor: pointer;
+}
