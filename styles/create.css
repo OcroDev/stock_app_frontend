@@ -8,17 +8,18 @@
   margin-bottom: 0.5rem;
 }
 
-.formControl h1 {
+.formControl h2 {
   text-align: center;
   margin: 0 auto;
   margin-bottom: 0.5rem;
+  color: #000;
 }
 
 .formControl button {
   height: 50px;
   width: 60%;
   margin: 0 auto;
-  background-color: #ff6347;
+  background-color: #50a7a7;
   font-size: 1rem;
   font-weight: bold;
   font-family: "JetBrains Mono";
@@ -29,4 +30,29 @@
 .formControl button:hover {
   opacity: 90%;
   cursor: pointer;
+}
+
+.container {
+  background-color: #f0f8ff;
+  width: 50rem;
+  margin: 0 auto;
+  margin-top: 5rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.df {
+  display: flex;
+}
+
+.fdc {
+  flex-direction: column;
+}
+
+.aic {
+  align-items: center;
+}
+
+.jcc {
+  justify-content: center;
 }

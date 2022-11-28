@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "../../styles/create.module.css";
+import axios from "axios";
 
 const CreateProducts = () => {
   const initialState = {
@@ -36,23 +36,26 @@ const CreateProducts = () => {
   };
 
   return (
-    <div>
-      <form onSubmit={addProduct} className={styles.formControl}>
-        <h1>Add a new product</h1>
-        <input
-          type="text"
-          name="name"
-          onChange={handleChange}
-          value={product.name}
-        />
-        <input
-          type="number"
-          name="price"
-          onChange={handleChange}
-          value={product.price}
-        />
-        <button>Add product</button>
-      </form>
+    <div className="container df aic">
+      <div className={"df fdc"}>
+        <form onSubmit={addProduct} className="formControl">
+          <h2>Add a new product</h2>
+          <input
+            type="text"
+            name="name"
+            onChange={handleChange}
+            value={product.name}
+          />
+          <input
+            type="number"
+            name="price"
+            onChange={handleChange}
+            value={product.price}
+          />
+          <button>Add product</button>
+        </form>
+      </div>
+      <div></div>
     </div>
   );
 };
